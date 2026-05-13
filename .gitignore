@@ -1,0 +1,44 @@
+# CMake build trees
+/build/
+/build_local/
+/cmake-build-*/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+Makefile
+*.ninja
+.ninja_*
+
+# Native build intermediates
+*.o
+*.obj
+*.d
+*.gcda
+*.gcno
+*.gcov
+
+# Local binaries built in the source root
+/dm_main
+/dev_sn
+/gripper_daemon
+/gripper_probe
+
+# Logs and local runtime artifacts
+*.log
+core
+core.*
+
+# Editor and OS noise
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Python helper cache, if scripts are used locally
+__pycache__/
+*.py[cod]
